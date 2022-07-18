@@ -1,8 +1,10 @@
 import './Home.scss';
 import React, { useEffect } from 'react';
+
 import axios from 'axios';
 
 const Home = () => {
+
 
      const makeApiCall= async ()=>{
         let searchTerm="Harry";
